@@ -1,0 +1,19 @@
+{
+    "name": "vendor-name/miniframework2",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "Arthur Januário Morais",
+            "email": "arthurjm12@hotmail.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "MF\\":"vendor/MF/"
+        }
+    }
+
+}
